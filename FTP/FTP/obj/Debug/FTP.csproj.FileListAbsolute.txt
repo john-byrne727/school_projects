@@ -1,0 +1,5 @@
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTP\bin\Debug\FTP.exe.config
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTP\bin\Debug\FTP.exe
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTP\bin\Debug\FTP.pdb
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTP\obj\Debug\FTP.exe
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTP\obj\Debug\FTP.pdb

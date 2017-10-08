@@ -1,0 +1,6 @@
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTPServer\bin\Debug\FTPServer.exe.config
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTPServer\bin\Debug\FTPServer.exe
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTPServer\bin\Debug\FTPServer.pdb
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTPServer\obj\Debug\FTPServer.csprojResolveAssemblyReference.cache
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTPServer\obj\Debug\FTPServer.exe
+C:\Users\John\Documents\RIT\2017\Fall\Data Comm & Networks\projects\project 1\FTP\FTPServer\obj\Debug\FTPServer.pdb
