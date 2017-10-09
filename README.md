@@ -1,5 +1,5 @@
 # school_projects
-This is a repository of several school projects I have completed, as example of my work. The projects have been uploaded as they were when I completed them and turned them in for grading. If the project was created as a part of a team I have recieved permission from my team members to upload the project, and I will identify here that the project was a group project.
+This is a repository of several school projects I have completed, as example of my work. The projects have been uploaded as they were when I completed them and turned them in for grading. If the project was created as a part of a team I have received permission from my team members to upload the project, and I will identify here that the project was a group project.
 
 This is not a complete list of all projects I have done, and I will be adding more as I get permission from teammates.
 
