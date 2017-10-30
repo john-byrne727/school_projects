@@ -30,7 +30,7 @@ The basic project requirements included notifications of user's joining and leav
 There were several additional optional requirements available for more credit on the project. I chose to implement persistent messages and a user account system requiring password authentication.
 The project was meant to be a proof of concept more than an actually working project, and as such it's functionality is limited. The system was not designed or tested for activity over a network, it was only designed for activity over local ports.
 Since it was not meant for use over networks, it does not have many security features. Persistent data other than passwords are stored in plaintext.
-The project also stores persistent data in plaintext rather than a database. This is because the development time for the project was only a few weeks, and we were instructed by the professor to focus more on the websocket aspect of the project than the backend design.
+The project also stores persistent data in plaintext rather than a database. This is because the development time for the project was only a few weeks, and we were instructed by the professor to focus more on the websocket aspect of the project than the detailed design. This is also why much of the default files and libraries created by dotnet remain in the project even though they are unused.
 
 ### Running the Project
 The project can be executed by using the dotnet run command from it's root folder. The client is accessed via the port provided. To use the system new users can be registered, or two users listed in the project's internal readme.txt can be accessed with the given username and password.
