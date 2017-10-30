@@ -1,0 +1,6 @@
+{"type":"LoginNote","message":"hopeful_student","date":"Fri Apr 07 2017 21:56:59 GMT-0400 (Eastern Standard Time)"}
+{"type":"LoginNote","message":"professor_awesome","date":"Fri Apr 07 2017 21:58:02 GMT-0400 (Eastern Standard Time)"}
+{"message":"I sure do hope I get a good grade!","user":"hopeful_student","date":"Fri Apr 07 2017 21:58:18 GMT-0400 (Eastern Standard Time)","type":"Message"}
+{"message":"Don't worry, @hopeful_student, you'll get 110%!","user":"professor_awesome","date":"Fri Apr 07 2017 21:58:56 GMT-0400 (Eastern Standard Time)","type":"Message"}
+{"user":"hopeful_student","date":"Fri Apr 07 2017 21:59:09 GMT-0400 (Eastern Standard Time)","type":"Close"}
+{"user":"professor_awesome","date":"Fri Apr 07 2017 21:59:12 GMT-0400 (Eastern Standard Time)","type":"Close"}

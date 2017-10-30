@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Flak</title>
+    <link rel="stylesheet" href="css/site.css" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+    <div id="header">
+        <img id="logo" src="images/flak.png" alt="Flak"/>
+    </div>
+    <div id="sideBar">
+        <fieldset id="login">
+            <legend align="center" id="loginLegend">LOGIN</legend>
+            <label for="username">Username</label>
+            <input type="text" id="username" />
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+            <p id="loginError" class="error"></p>
+            <button id="loginButton" onclick="submitLogin()">Log In!</button>
+            <button id="newUserButton" onclick="register()">New to Flak? Register!</button>
+        </fieldset>        
+    </div>
+    <div id="chatScreen">
+        <div id="output"></div>
+        <div id="input">
+            <div id="textInWrapper">
+                <textarea id="textIn" onkeyup="textInKeyUp(event)"  disabled>Log In to Send Messages</textarea>
+            </div>
+            <button id="sendButton" type="button" onclick="sendMessage()" disabled>Send</button>
+        </div>
+    </div>
+
+    <div id="registerBox">
+        <div id="registerInfo">
+            <h3>Enter Your New Profile Information</h3>
+            <label for="newUsername">Username</label></br>
+            <input type="text" id="newUsername" /></br>
+            <label for="newPassword">Password</label></br>
+            <input type="password" id="newPassword" /></br>
+            <label for="repeatPassword">Re-type Password</label></br>
+            <input type="password" id="repeatPassword" /></br>
+            <p id="registerError" class="error"></p>
+            <span>
+                <button id="cancelRegister" onclick="cancelRegister()">Cancel</button>
+                <button id="submitRegister" onclick="submitRegister()">Register</button>
+            </span>
+    </div>
+    <audio id="sound1">
+        <source src="sounds/dingdong.wav" />
+    </audio>
+</body>
+</html>

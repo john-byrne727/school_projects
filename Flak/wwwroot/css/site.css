@@ -1,0 +1,200 @@
+body {
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+    margin:0px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    /*
+    padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* buttons and links extension to use brackets: [ click me ] */
+.btn-bracketed::before {
+    display:inline-block;
+    content: "[";
+    padding-right: 0.5em;
+}
+.btn-bracketed::after {
+    display:inline-block;
+    content: "]";
+    padding-left: 0.5em;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+    display: none
+  }
+}
+#header{
+    position: absolute;
+    top: 0%;
+    height: 75px;
+    width:100%;
+    padding-top: 2px;
+    background: #D0D0D0;
+    border-bottom: 3px outset;
+    z-index: 3;
+}
+
+#logo{
+    height: 95%
+}
+
+#sideBar{
+    position: absolute;
+    left: 0px;
+    width: 190px;
+    top: 75px;
+    bottom: 0px;
+    padding-top: 5px;
+    background: #b6b6b6;
+    border-right: 10px #d0d0d0 solid;
+    z-index: 2;
+}
+
+#sideBar fieldset{
+    width: 175px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 3px;
+    display: block;
+    text-align: center;
+}
+
+#login input{
+    background: #d0d0d0;
+}
+
+#sideBar fieldset button{
+    margin-top: 5px;
+    width: 160px;
+}
+
+#chatScreen{
+    top: 75px;
+    left: 200px;
+    right: 0px;
+    bottom:0%;
+    position: absolute;
+    display: block;
+    background: #f0f0f0;
+}
+
+#input{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 75px;
+}
+
+#input button{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 50px;
+}
+
+#textInWrapper{
+    left: 0px;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    right: 55px;
+    display: block;
+}
+
+#textIn{
+    resize: none;
+    width:100%;
+    height:100%; 
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box;
+}
+
+#output{
+    position:absolute;
+    bottom: 85px;
+    left: 5px;
+    right: 5px;
+    top: 10px;
+    border: 2px #d0d0d0 solid;
+    padding: 5px;
+    background: #fff;
+    overflow-y: auto;
+}
+
+.message .date{
+    font-size: small;
+}
+
+.message .userTag{
+    background: #FFFF00;
+}
+
+#registerBox{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background: rgba(16,16,16,.5);
+    display: none;
+}
+
+#registerInfo {
+    z-index: 6;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    max-height: 50%;
+    background: #b6b6b6;
+    border: 10px #d0d0d0 solid;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+    overflow-y:auto;
+}
+
+#registerInfo input{
+    background: #d0d0d0;
+}
+
+#registerBox span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#registerInfo button{
+    margin: inherit;
+    width: 100px;
+}
+
+.error{
+    color: #FF0000
+}
