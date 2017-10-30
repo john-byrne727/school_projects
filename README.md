@@ -5,6 +5,7 @@ This is not a complete list of all projects I have done, and I will be adding mo
 
 ## Project Listing
 1. FTP - A limited functionality FTP client and server.
+2. Flak - A websocket based messenger system.
 
 
 ## FTP
@@ -18,3 +19,18 @@ The project was not as much about building a stable peice of software as it was 
 
 ### Running the Project
 Instructions on running the project can be found within the projects own readme.txt
+
+## Flak
+This project was created for my Concept of Parallel and Distributed Systems class. The goal was to explore the functionality of websockets by making a messenger system. I did the project using .NET Core 1.1 using Visual Studio 2015. The entiere solution is provided.
+
+### Scope of the Project
+The project's system includes both a c# backend and HTML/JavaScript/CSS frontend. The project is run by starting the backend server and connecting to it via a browser. Functionality is best observed using more than one browser.
+The primary function of the system is to be an instant messenger chat room. Messages sent from one client are meant to be reach the other client with minimal delay.
+The basic project requirements included notifications of user's joining and leaving the chat room, the ability to "tag" users by putting the '@' symbol before their alias in a message, and an audible notification upon a user being tagged.
+There were several additional optional requirements available for more credit on the project. I chose to implement persistent messages and a user account system requiring password authentication.
+The project was meant to be a proof of concept more than an actually working project, and as such it's functionality is limited. The system was not designed or tested for activity over a network, it was only designed for activity over local ports.
+Since it was not meant for use over networks, it does not have many security features. Persistent data other than passwords are stored in plaintext.
+The project also stores persistent data in plaintext rather than a database. This is because the development time for the project was only a few weeks, and we were instructed by the professor to focus more on the websocket aspect of the project than the backend design.
+
+### Running the Project
+The project can be executed by using the dotnet run command from it's root folder. The client is accessed via the port provided. To use the system new users can be registered, or two users listed in the project's internal readme.txt can be accessed with the given username and password.

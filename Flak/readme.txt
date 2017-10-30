@@ -22,7 +22,7 @@ John Byrne (jpb2380)
 	b. Username: professor_awesome
 	   Password: apple
 4. Source Files I Used:
-    a. Startup.cs
+    	a. Startup.cs
 	       Sets up the server, calls function to read in existing user
 		   information.
 	b. SocketHandler.cs
